@@ -1,0 +1,20 @@
+<svg height="300" width="500" vievBox="0 0 300 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#7A23BA" />
+            <stop offset="50%" stop-color="#C42B67" />
+            <stop offset="100%" stop-color="#DD903F" />
+        </linearGradient>
+        <linearGradient id="gradient-center" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#AD1C89" />
+            <stop offset="100%" stop-color="#C74C4D" />
+        </linearGradient>
+        <linearGradient id="gradient-dot" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#951FA0" />
+            <stop offset="100%" stop-color="#AD1C8A" />
+        </linearGradient>
+    </defs>
+    <rect fill="transparent" stroke="url(#gradient)" width="200" height="200" rx="50" ry="50" stroke-width="20" x="50" y="30"/>
+    <circle cx="150" cy="130" r="40" stroke="url(#gradient-center)" stroke-width="20" fill="transparent" />
+    <circle cx="200" cy="70" r="4" stroke="url(#gradient-dot)" stroke-width="20" fill="url(#gradient-dot)" />
+</svg>

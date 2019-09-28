@@ -1,0 +1,6 @@
+<svg height="500" width="500" vievBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="250" cy="250" r="200" fill="#FBD971" />
+    <circle cx="200" cy="200" r="30" fill="#AF8066" />
+    <circle cx="400" cy="200" r="30" fill="#AF8066" />
+    <line x1="200" y1="250" x2="400" y2="250" stroke="#F0C419" stroke-width="10" stroke-linecap="round" />
+</svg>

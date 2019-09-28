@@ -1,0 +1,10 @@
+<svg height="300" width="500" viewBox="0 0 300 500" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="80%">
+            <stop offset="0%" stop-color="red" />
+            <stop offset="100%" stop-color="orange" />
+        </linearGradient>
+    </defs>
+    <rect fill="url(#gradient)" height="250" rx="40" ry="50" stroke-width="12" width="350" x="50" y="20"/>
+    <polyline points="190,220 300,150 190,80" style="fill:white;"/>
+</svg>
